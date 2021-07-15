@@ -144,6 +144,8 @@ if AL then
 	AL["Dragon's Eye"] = true;
 
 	-- Sets/Collections Menu
+	AL["Incentive Token Rewards"] = true;
+	AL["Heroic Incentive Token Rewards"] = true;
 	AL["Badge of Justice Rewards"] = true;
 	AL["Emblem of Valor Rewards"] = true;
 	AL["Emblem of Heroism Rewards"] = true;

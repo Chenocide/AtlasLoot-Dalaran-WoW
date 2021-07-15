@@ -1108,6 +1108,10 @@ end
   -- Emblem of Frost Rewards
 	AtlasLoot_TableNames["EmblemofFrost"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["EmblemofFrost2"] = { AL["Emblem of Frost Rewards"], "AtlasLootWotLK" };
+  -- Heroic Incentive Token
+	AtlasLoot_TableNames["IncentiveTokens1"] = { AL["Heroic Incentive Token Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["IncentiveTokens2"] = { AL["Incentive Token Rewards"], "AtlasLootWotLK" };
+	AtlasLoot_TableNames["IncentiveTokens3"] = { AL["Incentive Token Rewards"], "AtlasLootWotLK" };
   -- Naxxramas 10/25 Man Sets
 	AtlasLoot_TableNames["NaxxDeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["NaxxDeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootWotLK" };
@@ -1769,6 +1773,7 @@ end
 	AtlasLoot_TableNames["EMBLEMOFTRIUMPHMENU"] = { AL["Emblem of Triumph Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFCONQUESTMENU"] = { AL["Emblem of Conquest Rewards"], "Menu" };
 	AtlasLoot_TableNames["EMBLEMOFFROSTMENU"] = { AL["Emblem of Frost Rewards"], "Menu" };
+	AtlasLoot_TableNames["INCENTIVETOKENMENU"] = { AL["Incentive Token Rewards"], "Menu" };
 	AtlasLoot_TableNames["WORLDEPICS"] = { AL["BoE World Epics"], "Menu" };
 	AtlasLoot_TableNames["WORLDEVENTMENU"] = { AL["World Events"], "Menu" };
 	AtlasLoot_TableNames["ABYSSALMENU"] = { AL["Abyssal Council"], "Menu" };

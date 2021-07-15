@@ -71,6 +71,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 ---- Tier 9 Sets (T9)
 ---- Tier 10 Sets (T10)
 ---- Wrath Of The Lich King Sets
+---- Incentive Tokens
 ---- Blizzard Collectables
 ---- Legendaries
 ---- Tabards
@@ -10497,6 +10498,43 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 18, 49488, "", "=q4=Shiny Shard of the Scale", "=ds=#s14#"};
 		Back = "SETSWRATHOFLICHKING";
 	};
+	
+		
+		------------------------
+		--- Incentive Tokens ---
+		------------------------
+	AtlasLoot_Data["IncentiveTokens1"] = {
+		{ 1, 52251, "", "=q5=Jaina's Locket", "60 #hcintoken#"};
+		{ 2, 52201, "", "=q5=Muradin's Favor", "60 #hcintoken#"};
+		{ 3, 52253, "", "=q5=Sylvana's Music Box", "60 #hcintoken#"};
+		{ 4, 52200, "", "=q5=Reins of the Crimson Deathcharger", "60 #hcintoken#"};
+		{ 5, 52252, "", "=q5=Tabard of the Lightbringer", "60 #hcintoken#"};
+		{ 7, 54861, "", "=q5=Frost Wyrm Mount", "60 #hcintoken#"};
+		{ 8, 43963, "", "=q5=Reins of the Brown Polar Bear", "30 #hcintoken#"};
+		{ 10, 44819, "", "=q5=Baby Polar Bear", "30 #hcintoken#"};
+		{ 11, 37297, "", "=q5=Gold Medallion", "20 #hcintoken#"};
+		{ 12, 23712, "", "=q5=White Tiger Cub", "20 #hcintoken#"};
+		{ 13, 46767, "", "=q5=Warbot Ignition key", "20 #hcintoken#"};
+		{ 15, 19160, "", "=q5=Contest Winner's Tabard", "30 #hcintoken#"};
+		{ 16, 46348, "", "=q5=Formula: Enchant Weapon - Blood Draining", "60 #hcintoken#"};
+		{ 17, 46027, "", "=q5=Formula: Enchant Weapon - Blade Ward", "60 #hcintoken#"};
+		{ 20, 20558, "", "=q5=Incentive Token", "1 #hcintoken#"};
+		Next = "IncentiveTokens2";
+		Back = "SETMENU";
+	};
+	
+	AtlasLoot_Data["IncentiveTokens2"] ={
+		--Next = "IncentiveTokens3";
+		Back = "SETMENU";
+		Prev = "IncentiveTokens1";
+	};
+	
+	AtlasLoot_Data["IncentiveTokens3"] ={
+		Back = "SETMENU";
+		Prev = "IncentiveTokens2";
+	};
+		
+
 
 		-------------------
 		--- Legendaries ---
